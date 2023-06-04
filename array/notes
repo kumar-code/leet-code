@@ -1,0 +1,6 @@
+Iterating over array
+
+Arrays.stream(a).anyMatch(i -> i == check);
+Stream.of(array).anyMatch(i -> i == check);
+IntStream.of(array).anyMatch(val -> val == check);
+
